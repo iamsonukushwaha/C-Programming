@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-main()
+int main()
 {
 	int n, i, j, k, c = 120;
 	printf("Enter number of rows(upto 60) you want to print  :");

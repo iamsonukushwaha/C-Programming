@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-main()
+int main()
 {
 	int r;
 	float area;

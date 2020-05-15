@@ -1,5 +1,5 @@
 #include<stdio.h>
-main()
+int main()
 {
 	int secretNumber = 5;
 	int guess;
