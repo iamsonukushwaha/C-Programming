@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    int n;
+    for(;;)
+    {
+        printf("Enter the number: ");
+        scanf("%d", &n);
+        
+        if(n<0)
+        {
+            printf("You've entered a negative number");
+            exit(0);
+        }
+        else
+        {
+            printf("%f\n", sqrt(n));
+        }
+    }
+
+    return 0;
+}
